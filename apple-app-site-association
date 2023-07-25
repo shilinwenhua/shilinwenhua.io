@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "ABP6F3JB4S.com.shilin.yinluo",
+                "paths": [ "*","/app/*" ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+body{font-family: microsoft yahei;}
+		header{padding: 15px}
+		header a.back_rel{display: block;background: url('pay_select/back.png') no-repeat;background-size:20%;width: 50px;height: 50px;float: left}
+		header span{text-align: center;position: absolute;text-align: center;width: 100%;left: 0;right: 0;display: block;height: 20px;line-height: 20px;width: 100px;margin: 0 auto;font-size: 16px;font-weight: 600}
+		.max-widths{max-width: 720px;width: 100%;margin: 0 auto;overflow: hidden;}
+		header{border-bottom: 1px solid #e5e5e5;height: 47px;line-height: 47px}
+
+		.id_select{padding-left: 15px;padding-right: 15px;margin-bottom: 15px}
+		.id_select input{background:#f2f2f2;text-align: center;border-radius: 20px;border: none;height: 30px;width: calc(100% - 120px);margin-left: 10px;outline:none;}
+		.id_div{float: left;width: 100%;margin-bottom: 10px}
+		.id_div{}
+		.id_div span{ margin-right: 5px }
+
+		.m_s{overflow: hidden;width: 100%;}
+		.m_s h5{padding-left: 15px;color: #9b9b9b}
+		.m_s ul {list-style: none;padding: 0;margin: 0}
+		.m_s ul li{width: 100%;overflow: hidden;float: left;padding-left: 15px;line-height: 53px;padding-top: 0px}
+		.m_s ul li.active{background:rgba(255,199,199,0.3); }
+		.m_s ul li img{width: 26px;height: 18px;margin-right: 15px}
+		.m_s ul li span{font-size: 16px;color: #333 }
+		.m_s ul li small{float: right;margin-right: 15px;background:#1D9AFF;color: #fff;padding: 0px 15px;border-radius: 20px;font-size: 16px;height: 25px;display: block;line-height: 25px;margin-top: 15px }
+
+		.way_s{overflow: hidden;}
+		.way_s h5{font-size: 16px;color: #333;font-weight: bold;padding-left: 15px;margin-bottom: 25px;display: block;margin-top: 20px}
+		.way_s div{padding-left: 15px;padding-right: 15px;margin-bottom: 20px;}
+		.way_s div img{width: 30px}
+		.way_s div span{font-size: 14px;padding-left: 8px}
+		.way_s div input{float: right;}
+		.way_s input[type="radio"] + label{float: right;width: 100%;}
+
+		.way_s .r_l{float: left;margin-left: -15px}
+
+		.way_s input[type="radio"] + label::before {
+              
+			    content: ""; /*不换行空格*/
+			    display: inline-block;
+			    vertical-align: middle;
+			    font-size: 18px;
+			    width: 18px;
+			    height: 18px;
+			    float: right;
+			    border-radius: 50%;
+			    border: 1px solid #d1d1d1;
+			    text-indent: .15em;
+			    line-height: 1; 
+			    margin-top: 5px;
+			    z-index: 100
+
+            }
+
+
+        .way_s input[type="radio"]:checked + label::before {
+		    background: url('pay_select/checked.png') no-repeat;
+		    background-size: 18px 20px;
+		    border:none;
+		    padding: 2px;
+		}
+
+		.way_s input[type="radio"] {
+		    position: absolute;
+		    opacity: 0; /*完全透明*/
+		}
+
+		
+		.p_success{position: absolute;left: 0;right: 0;margin: 0 auto;top:calc(50% - 25px);z-index: 10;width: 100%;text-align: center;}
+		.p_success span{font-size: 18px;padding-top: 15px;display: block;font-weight: 600;color: #333}
+
+		.pay_button_go{overflow: hidden;padding-left: 15px;padding-right: 15px;padding-bottom: 20px}
+		.pay_button_go a{width: 100%;box-shadow: 0 2px 5px rgba(0,0,0,0.3);margin: 0 auto;height: 45px;line-height: 45px;background: #FF8600;display: block;color: #fff;text-align: center;border-radius: 25px;font-size: 16px;text-decoration: none}
+		.pay_button_go a:active{background:#d97200 }
+
+
+
+/*pc*/
+		.pc_payselect{font-family: microsoft yahei;background: #f1f1f1}
+		.back_btn {padding:15px 0 20px 20px ;}
+		.pc_main{max-width: 1000px;margin: 0 auto;width: 100%;box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);background: #fff}
+		.pay_main{overflow: hidden;padding:20px;}
+		.pay_id{float: left;margin-right: 25px;}
+	
+		.pay_id .first_div{width: 120px;display: block;float: left;line-height: 50px}
+		.pay_id span{font-size: 18px;color: #333}
+		.pay_id input{background:#f2f2f2;text-align: center;border-radius: 36px;border: none;height: 50px;width: calc(100% - 120px);outline:none;width: 250px;text-align: center;text-indent: 10px;font-size: 18px}
+
+		.pay_main .pc_pay_select{overflow: hidden;width: 100%;margin-top: 90px;}
+		.pay_main .pc_pay_select span{font-size: 18px;display: block;float: left;padding-top: 15px;width: 120px}
+
+		.pay_main .pc_pay_select .pc_pay_alipay{display: block;width: 150px;height: 50px;background: url('pay_select/p_alipay_no.png') no-repeat;float: left;background-size: 100% 100%;cursor: pointer;}
+
+		.pay_main .pc_pay_select .pc_pay_alipay_active{display: block;width: 150px;height: 50px;background: url('pay_select/p_alipay.png') no-repeat;float: left;background-size: 100% 100%;cursor: pointer;}
+
+
+		.pay_main .pc_pay_select .pc_pay_wx{display: block;width: 150px;height: 50px;background: url('pay_select/p_wx_no.png') no-repeat;float: left;background-size: 100% 100%;margin-left: 15px;cursor: pointer;}
+
+		.pay_main .pc_pay_select .pc_pay_wx_active{display: block;width: 150px;height: 50px;background: url('pay_select/p_wx.png') no-repeat;float: left;background-size: 100% 100%;margin-left: 15px;cursor: pointer;}
+
+		.pc_pay_money{margin-top: 35px;width: 100%;overflow: hidden;padding-top: 10px}
+		.pc_pay_money .money_l{margin-left: 120px}
+		.pc_pay_money h4{font-size: 18px;display: block;float: left;width: 120px;color: #333}
+		.pc_pay_money a{display: block;width:45%;float: left;background: #fff;box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);color: #FF8600;margin: 0px 20px 20px 0px;text-decoration: none;height:60px;line-height: 57px;border-radius: 26px;border:3px solid #fff;cursor: pointer;}
+		.pc_pay_money a.active{border:3px solid #FF8600;}
+		.pc_pay_money a img{margin-left: 20px;margin-right: 10px;width: 30px;margin-top: -5px}
+		.pc_pay_money a span{font-size: 18px;color: #333;font-weight: bold;}
+		.pc_pay_money a small{float: right;padding-right: 15px;font-size: 20px;font-weight: bold;}
+
+
+		.pc_pay_btn{overflow: hidden;padding-bottom: 15px;width: 350px;margin: 20px auto}
+		.pc_pay_btn span{width: 100%;box-shadow: 0 2px 5px rgba(0,0,0,0.3);margin: 0 auto;height: 65px;line-height: 65px;background: #FF8600;display: block;color: #fff;text-align: center;border-radius: 50px;font-size: 22px;text-decoration: none;cursor: pointer;}
+		.pc_pay_btn span:active{background:#d97200 }

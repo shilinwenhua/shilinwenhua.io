@@ -1,19 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
-minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=no">
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="expires" content="0">
-    <title>音络</title>
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
-  <script>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>音络官网</title>
+    <meta name="description" content="音络 - 网络主播都在用的音频招聘APP"/>
+    <meta name="keywords" content="音络官网,语音聊天室, 处CP，CP"/>
+    <meta property="og:url" content="http://www.ikeke.ltd/"/>
+    <meta property="og:title" content="音络"/>
+    <meta property="og:description" content="网络主播都在用的音频招聘APP"/>
+    <meta property="og:site_name" content="音络"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="600"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/svg+xml" href="./img/logo-alt.png" />
+    <link href="css/pixeden.css" rel="stylesheet" media="screen">
+    <link href="css/styles.min.css" rel="stylesheet" media="screen">
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/detectizr.min.js"></script>
+</head>
+
+<body class="is-preloader preloading">
+<div id="preloader" data-spinner="spinner2" data-screenbg="#fff"></div>
+<div class="page-wrapper">
+    <header class="navbar navbar-light navbar-sticky">
+        <div class="container">
+            <a href="index.html" class="site-logo">
+                <img src="img/logo-alt.png" class="logo-default" alt="ZurApp">
+                <img src="img/logo-alt.png" class="logo-alt" alt="ZurApp">
+            </a>
+            <h3 class="guan">音络</h3>
+
+            <div class="nav-toggle"><span></span></div>
+
+            <div class="clearfix">
+                <div class="toolbar text-right"></div>
+               <nav class="main-navigation submenu-slideDown">
+            <ul class="menu">
+              <li class="has-submenu current"><a href="index.html">音络</a>
+              <!-- <li class="has-submenu"><a href="pc_payselect.html">在线充值</a> -->
+              <!-- <li class="has-submenu"><a style="cursor: pointer;" onclick="handleDown()">下载</a> -->
+            </ul>
+          </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="device-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="phone-carousel" data-loop="false" data-autoplay="false" data-interval="4000">
+                        <img src="img/phone.png" class="phone-mask" alt="Phone">
+                    </div>
+                </div>
+                <div class="col-sm-7 padding-top mobile-center">
+                    <div class="text-light">
+                        <h1>网络主播都在用的音频招聘APP</h1>
+                    </div>
+                    <p class="text-light"></br>用声音发现最好的TA，你的声音让我驻足</br>
+                        </br>音络网络主播招聘平台</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container padding-top-3x padding-bottom-3x">
+
+        <div class="space-bottom-2x text-center">
+            <h2>快速了解音络</h2>
+            <h4>只需 <span class="text-primary text-bold">1 分钟</span></h4>
+        </div>
+
+        <div class="featured-tabs">
+            <div class="row">
+                <div class="col-md-7 col-md-push-5 padding-top-2x space-bottom">
+                    <ul class="nav-tabs" role="tablist">
+                        <li class="active">
+                            <span class="number"><i>1</i></span>
+                            <a href="index.html#tab01" role="tab" data-toggle="tab">3D礼物特效</a>
+                            <p>通过3d礼物特效面试官可以看到主播真实才艺</p>
+                        </li>
+                        <li>
+                            <span class="number"><i>2</i></span>
+                            <a href="index.html#tab02" role="tab" data-toggle="tab">热门动态</a>
+                            <p>你想要的应有尽有~</p>
+                        </li>
+                        <li>
+                            <span class="number"><i>3</i></span>
+                            <a href="index.html#tab03" role="tab" data-toggle="tab">心路历程</a>
+                            <p>让音络陪你一起感受你的酸甜苦辣，一起面对那些不开心的</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane transition fade right in active" id="tab01">
+                            <img src="img/01.png" class="block-center" alt="Tab">
+                        </div>
+                        <div role="tabpanel" class="tab-pane transition fade scale" id="tab02">
+                            <img src="img/01.png" class="block-center" alt="Tab">
+                        </div>
+                        <div role="tabpanel" class="tab-pane transition fade flip" id="tab03">
+                            <img src="img/01.png" class="block-center" alt="Tab">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="index.html#" class="scroll-to-top-btn">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <div id="codeDialog" class="codeDialog">
+        <div id="closeDialog" onclick="handleClose()"></div>
+        <div class="codebox">
+            <div class="title">扫码下载APP</div>
+            <div class="codeList">
+                <div class="code">
+                    <img src="./img/android.png">
+                    <div>Android下载</div>
+                </div>
+                <div class="code">
+                    <img src="./img/ios.png">
+                    <div>IOS下载</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="copyright">
+                        <p>2023 &copy; <a href="" target="_blank">北京时霖文化传媒有限公司</a></p>
+                      <p><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号：京ICP备2021027814号</a></p>
+                      <p><img src="img/ga.png" style="float:left;"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502052494" target="_blank">京公网安备 11010502052494号</a></p>
+                        <p>地址：北京市朝阳区来广营西路5号院诚盈中心1号楼3层3c</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
-  </script>
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/placeholder.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    const handleDown = ()=> {
+        document.getElementById('codeDialog').style.display = 'block'
+    }
+    const handleClose = ()=> {
+        console.log('zhixng ');
+        document.getElementById('codeDialog').style.display = 'none'
+    }
+</script>
+</body>
+
 </html>
