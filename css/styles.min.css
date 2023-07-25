@@ -9971,8 +9971,8 @@ img.mfp-img {
 .device-slider .phone-carousel {
     position: relative;
     z-index: 5;
-    width: 300px;
-    margin: 0 auto -135px auto;
+    width: 450px;
+    margin: 0 auto -105px auto;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
